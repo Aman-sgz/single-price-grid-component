@@ -23,17 +23,20 @@ body {
 }
 .header__title {
     padding-bottom: .8rem;
-    font-size: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
     color: var(--cyan);
 }
 .header__subtitle {
-    padding-bottom: .8rem;
-    font-size: 15px;
+    padding-bottom: .3rem;
+    font-size: 1.2rem;
     color: var(--bright-yellow);
     font-weight: bold;
     line-height: 1.5;
 }
 .header__text {
+    font-size: 1rem;
+    font-weight: 400;
     color: var(--grayish-blue);
     line-height: 1.5;
 }
@@ -42,12 +45,11 @@ body {
 .details {
     color: white;
     padding: 1rem 1.5rem;
-
 }
 
 .sub {
     background-color: var(--bg-sub);
-    height: 235px;  
+    height: 200px;  
 }
 .sub__title {
     font-size: 20px;
@@ -55,9 +57,10 @@ body {
 }
 .sub__price {
     font-size: 25px;
+    font-weight: 700;
 }
 .sub__time {
-    color: var(--light-gray);
+    color: rgb(188, 223, 240);
 }
 .sub__text {
     font-size: 15px;
@@ -68,7 +71,7 @@ body {
 .sub__sign {
     display: block;
     width: 264px;
-    height: 40px;
+    height: 30px;
     padding-top: .8rem;
     padding-bottom: 0;
     font-weight: 700;
@@ -88,7 +91,10 @@ body {
 }
 .list {
     list-style-type: none;
+    font-size: .9rem;
     padding-left: 0;
+    font-weight: lighter;
+    line-height: 1.5;
 }
 
 .attribution { 
