@@ -9,7 +9,6 @@
 }
 
 body {
-    display: grid;
     font-family: 'Karla', sans-serif;
     font: 15px;
     background-color: var(--light-gray);
@@ -49,7 +48,7 @@ body {
 
 .sub {
     background-color: var(--bg-sub);
-    height: 200px;  
+    height: 235px;  
 }
 .sub__title {
     font-size: 20px;
@@ -65,7 +64,7 @@ body {
 .sub__text {
     font-size: 15px;
     font-weight: 400;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .sub__sign {
@@ -81,6 +80,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
+
+
 .details {
     background-color: var(--bg-details);
     height: 235px;
@@ -96,6 +97,8 @@ body {
     font-weight: lighter;
     line-height: 1.5;
 }
+
+
 
 .attribution { 
     font-size: 11px; text-align: center; 
