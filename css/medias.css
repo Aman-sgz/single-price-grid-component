@@ -1,18 +1,40 @@
 
-@media screen and (min-width:600px){
-    .container {
-       width: 700px;
-       margin: 4rem auto;
-    }
-    .header {
-        padding: 2rem;
+@media screen and (min-width:768px){
+     .container {
+       margin: 7rem auto;
+
     }
     .main {
         display: flex;
+        flex-wrap: wrap;
+        max-width: 600px;
+        margin: 0 auto;
     }
-    .sub, 
-    .details {
-        width: 50%;
+
+    .description {
         padding: 2rem;
+        height: 160px;
+    }
+    .description__title {
+        padding-bottom: 0;
+    }
+    .description__subtitle {
+        margin-bottom: 0;
+    }
+    .description__text {
+        margin-top: 5px;
+        font-size: 16px;
+    }    
+    .sub {
+        height: 224px;
+    }
+    .sub__title {
+        margin-bottom: 1.5rem;
+    }
+    .sub__text {
+        margin-bottom: 1.4rem;
+    }
+    .details {
+        width: 240px;
     }
 }

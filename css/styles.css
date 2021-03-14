@@ -1,5 +1,5 @@
 :root {
-    --cyan: hsl(179, 62%, 43%);
+    --cyan: hsl(179, 72%, 43%);
     --bright-yellow: hsl(71, 73%, 54%);
     --light-gray: hsl(204, 43%, 93%);
     --grayish-blue: hsl(218, 22%, 67%);
@@ -10,36 +10,44 @@
 
 body {
     font-family: 'Karla', sans-serif;
-    font: 15px;
     background-color: var(--light-gray);
-    padding: 4rem 1rem;
 }
 
-.header {
-    padding: 2rem 1.3rem;
-    height: 260px;
+.container {
+    margin: 4rem auto;
+}
+
+.main {
+    max-width: 324px;
+    margin: 0 auto;
+}
+
+.description {
+    padding: 1rem 1.3rem 2rem 1.3rem;
+    height: 235px;
     background-color: white;
 }
-.header__title {
+.description__title {
     padding-bottom: .8rem;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: bolder;
     color: var(--cyan);
 }
-.header__subtitle {
+.description__subtitle {
     padding-bottom: .3rem;
-    font-size: 1.2rem;
+    font-size: 17px;
     color: var(--bright-yellow);
-    font-weight: bold;
+    font-weight: bolder;
     line-height: 1.5;
 }
-.header__text {
-    font-size: 1rem;
+.description__text {
+    font-size: 15px;
     font-weight: 400;
     color: var(--grayish-blue);
     line-height: 1.5;
 }
 
+/* Subscription */
 .sub, 
 .details {
     color: white;
@@ -48,7 +56,7 @@ body {
 
 .sub {
     background-color: var(--bg-sub);
-    height: 235px;  
+    height: 212px;  
 }
 .sub__title {
     font-size: 20px;
@@ -56,48 +64,52 @@ body {
 }
 .sub__price {
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .sub__time {
     color: rgb(188, 223, 240);
 }
 .sub__text {
     font-size: 15px;
-    font-weight: 400;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .sub__sign {
     display: block;
     width: 264px;
     height: 30px;
-    padding-top: .8rem;
-    padding-bottom: 0;
+    padding-top: .9rem;
+    padding-bottom: .1rem;
     font-weight: 700;
     text-align: center;
     text-decoration: none;
     background-color: var(--bright-yellow);
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-
+/* why us */
 .details {
     background-color: var(--bg-details);
-    height: 235px;
+    height: 240px;
     margin-bottom: 2rem;
+    padding-bottom: 0;
 }
+
 .details__title {
     font-size: 20px;
+    font-weight: lighter;
 }
+
 .list {
     list-style-type: none;
-    font-size: .9rem;
+    font-style: normal;
+    font-size: 15px;
     padding-left: 0;
     font-weight: lighter;
     line-height: 1.5;
+    color: rgb(188, 223, 240);
 }
-
 
 
 .attribution { 
@@ -107,5 +119,3 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-
-
